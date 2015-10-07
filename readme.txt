@@ -5,6 +5,7 @@ print os.environ.get('KEY_THAT_MIGHT_EXIST')
 # set an environment variable
 os.environ["PYSPARK_PYTHON"] = "/Users/quentin/Dev/spark-1.4.1-bin-hadoop2.6/bin/pyspark"
 
+# launch spark job in local
 /Users/quentin/Dev/spark-1.4.1-bin-hadoop2.6/bin/pyspark \
 --master local[4] \
 sparktest.py
